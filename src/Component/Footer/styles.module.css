@@ -1,0 +1,21 @@
+.footer {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  height: 79px;
+  border: 1px solid #dedede;
+  width: calc(100% - 150px);
+  display: flex;
+  align-items: center;
+}
+.footerBox {
+  width: 1510px;
+  margin: 0px auto;
+}
+.footerBox span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3e3e3e;
+}

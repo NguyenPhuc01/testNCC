@@ -1,0 +1,24 @@
+.boxLorem {
+  width: 470px;
+  height: 252px;
+}
+.loremTitle {
+  margin: 0px 0 18px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.loremContent {
+  display: flex;
+}
+.loremContent span {
+  height: 134px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}

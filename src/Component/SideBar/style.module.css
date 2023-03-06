@@ -1,0 +1,28 @@
+.sidebar {
+  width: 150px !important;
+  background: #191718;
+  z-index: 99;
+}
+.sidebar_list {
+  list-style: none;
+  color: #aaaaaa;
+  padding: 0px;
+  margin: 0px;
+  width: 150px;
+}
+.sidebar_list li {
+  height: 44px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #5c5c5c;
+  /* cursor: pointer; */
+}
+.sidebar_list li:hover {
+  background: #5c5c5c;
+  color: #fff;
+}
