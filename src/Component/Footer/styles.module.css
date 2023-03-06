@@ -1,7 +1,7 @@
 .footer {
   position: absolute;
   right: 0%;
-  bottom: 0%;
+  bottom: 0px;
   height: 79px;
   border: 1px solid #dedede;
   width: calc(100% - 150px);
@@ -18,4 +18,13 @@
   font-size: 16px;
   line-height: 19px;
   color: #3e3e3e;
+}
+@media screen and (max-width: 739px) {
+  .footer {
+    width: 100%;
+    background-color: #fff;
+  }
+  .footerBox {
+    text-align: center;
+  }
 }

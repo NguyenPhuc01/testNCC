@@ -4,7 +4,7 @@ export default function SideBar() {
   return (
     <div className={styles.sidebar}>
       <ul className={styles.sidebar_list}>
-        <li>Home</li>
+        <li style={{ color: "#fff" }}>Home</li>
         <li>Services</li>
         <li>News</li>
         <li>Blog</li>

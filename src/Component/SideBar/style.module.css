@@ -24,5 +24,10 @@
 }
 .sidebar_list li:hover {
   background: #5c5c5c;
-  color: #fff;
+  color: #ffffff;
+}
+@media only screen and (max-width: 739px) {
+  .sidebar {
+    display: none;
+  }
 }

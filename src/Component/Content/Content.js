@@ -5,9 +5,13 @@ import LoremCard from "../LoremCard/LoremCard";
 import css from "../../Util/Images/css-icon 1.svg";
 import html from "../../Util/Images/html-icon 1.svg";
 import url from "../../Util/Images/url-icon 1.svg";
+import Drawer from "../Drawer/Drawer";
 export default function Content() {
   return (
     <div className={styles.bodyContent}>
+      <div className={styles.Drawer}>
+        <Drawer />
+      </div>
       <div className={styles.logo}>
         <img src={logo} alt="" />
       </div>

@@ -5,7 +5,7 @@ export default function LoremCard({ img }) {
     <div className={styles.boxLorem}>
       <h4 className={styles.loremTitle}>Lorem ipsum dolor sit amet</h4>
       <div className={styles.loremContent}>
-        <img src={img} alt="" style={{ marginRight: 18 }} />
+        <img src={img} alt="" />
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui
           sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit
