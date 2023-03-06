@@ -27,9 +27,8 @@
 }
 @media only screen and (max-width: 739px) {
   .boxLorem {
-    margin-bottom: 30px;
     width: auto;
-    margin: 0px 10px;
+    margin: 0px 10px 30px 10px;
   }
   .loremContent span {
     font-size: 11px;
@@ -40,5 +39,22 @@
   }
   .boxLorem div span {
     font-size: 11px;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .boxLorem {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1520px) {
+  .boxLorem {
+    margin-bottom: 40px;
+    width: auto;
+  }
+  .loremContent span {
+    font-size: 13px;
+  }
+  .boxLorem div span {
+    font-size: 13px;
   }
 }

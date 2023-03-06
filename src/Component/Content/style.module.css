@@ -66,3 +66,52 @@
     padding: 0px 7px 15px 7px;
   }
 }
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .bodyContent,
+  .loremBox {
+    width: 100%;
+    height: auto;
+  }
+  .loremContent {
+    width: 100%;
+    height: auto;
+  }
+  .loremContent span {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .bodyContent {
+    margin: 0px 10px;
+  }
+  .loremCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1530px) {
+  .bodyContent,
+  .loremBox {
+    width: 100%;
+    height: auto;
+  }
+  .loremContent {
+    width: 100%;
+    height: auto;
+  }
+  .loremContent span {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .bodyContent {
+    margin: 0px 10px;
+  }
+  .loremCard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    justify-content: space-around;
+  }
+}
